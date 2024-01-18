@@ -23,16 +23,8 @@ body {
   padding: 10px;
 }
 
-.box-input input {
+select {
   border: none;
-  outline: none;
-  margin-left: 5px;
-}
-
-.box-select select {
-  border: none;
-  margin: 5px;
-  padding: 5px;
 }
 
 .box-result 
@@ -48,4 +40,14 @@ body {
   color: #fff;
   font-weight: bold;
   border-radius: 5px;
+}
+
+input {
+  border: none;
+  outline: none;
+  margin-left: 5px;
+  width: 50px;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: transparent;
 }
